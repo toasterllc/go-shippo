@@ -34,6 +34,7 @@ type CustomsItemInput struct {
 	ValueCurrency string `json:"value_currency"`
 	OriginCountry string `json:"origin_country"`
 	TariffNumber  string `json:"tariff_number,omitempty"`
+	HSCode        string `json:"hs_code,omitempty"`
 	Metadata      string `json:"metadata,omitempty"`
 }
 
